@@ -1,9 +1,4 @@
-//---------------------------------------------------------------------------
-// MapEntry.java              by Dale/Joyce/Weems                   Chapter 8
-//
-// Provides key, value pairs for use with a Map.
-// Keys are immutable.
-//---------------------------------------------------------------------------
+
 
 public class MapEntry<K, V>
 {
@@ -21,7 +16,7 @@ public class MapEntry<K, V>
 
   @Override
   public String toString()
-  // Returns a string representing this MapEntry.
+ 
   {
     return "Key  : " + key + "\nValue: " + value;
   }
